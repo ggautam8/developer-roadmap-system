@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Configuration;
+
 
 namespace DeveloperRoadmapSystem
 {
@@ -16,20 +19,30 @@ namespace DeveloperRoadmapSystem
 
         protected void btnLogin_Click(object sender, EventArgs e) 
         {
-            string username = txtUsername.Text;
-            string password = txtPassword.Text;
+            string connStr = ConfigurationManager.ConnectionStrings["DBConnection"].ConnectionString;
 
-            if (username == "admin" && password == "123") 
+            using (SqlConnection conn = new SqlConnection(connStr))
             {
-                Session["Username"] = username;
+                string query = "SELECT COUNT(*) FROM Users WHERE Username=@username AND Password=@password";
 
-                Response.Redirect("Default.aspx");
-            }
-            else
-            {
-                lblMessage.Text = "Invalid Credentials";
-            }
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@username", txtUsername.Text);
+                cmd.Parameters.AddWithValue("@password", txtPassword.Text);
 
+                conn.Open();
+                int count = (int)cmd.ExecuteScalar();
+
+                if (count > 0)
+                {
+                    lblMessage.Text = "Count = " + count;
+                    Session["User"] = txtUsername.Text;
+                    //Response.Redirect("Default.aspx");
+                }
+                else
+                {
+                    lblMessage.Text = "Invalid Username or Password";
+                }
+            }
         }
     }
 }
