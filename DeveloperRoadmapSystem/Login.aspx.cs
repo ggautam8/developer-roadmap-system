@@ -34,9 +34,11 @@ namespace DeveloperRoadmapSystem
 
                 if (count > 0)
                 {
-                    lblMessage.Text = "Count = " + count;
                     Session["User"] = txtUsername.Text;
-                    //Response.Redirect("Default.aspx");
+                    
+                    Response.Redirect("Default.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
+
                 }
                 else
                 {
