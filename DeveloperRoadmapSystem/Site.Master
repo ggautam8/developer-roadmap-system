@@ -37,22 +37,64 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" runat="server" href="~/">Application name</a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+
+                <!-- BRAND / LOGO -->
+                <a class="navbar-brand fw-bold" runat="server" href="~/Default.aspx">
+                    NextStep
+                </a>
+
+                <!-- MOBILE TOGGLE -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#mainNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/About">About</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
+
+                <!-- NAV CONTENT -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+
+                    <!-- LEFT SIDE LINKS -->
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" runat="server" href="~/About.aspx">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" runat="server" href="~/Contact.aspx">Contact</a>
+                        </li>
                     </ul>
-                </div>
+
+                    <!-- RIGHT SIDE LINKS -->
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link text-info"
+                               href="https://github.com/ggautam8/developer-roadmap-system"
+                               target="_blank">
+                               Contribute
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" runat="server" href="~/Login.aspx">
+                                Login
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="btn btn-primary ms-2 px-3"
+                               runat="server"
+                               href="~/Signup.aspx">
+                               Sign Up
+                            </a>
+                        </li>
+
+                    </ul>
+
+                 </div>
             </div>
         </nav>
+
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
