@@ -3,49 +3,86 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <main>
-        <h2>Developer Roadmap Management System</h2>
-        <p>Welcome to the system</p>
+        <div class="container-fluid p-0">
 
-        <br />
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black px-4">
+        
+            <!-- LEFT SIDE -->
+            <div class="d-flex align-items-center">
+                <!-- Later Logo Here -->
+                <span class="navbar-brand fw-bold">SkillPath</span>
+            </div>
 
-        <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" />
+            <!-- RIGHT SIDE -->
+            <div class="ms-auto">
+                <a href="About.aspx" class="nav-link d-inline text-white">About</a>
+                <a href="https://github.com/YOUR_REPO" target="_blank" 
+                   class="nav-link d-inline text-white">Contribute</a>
+            </div>
 
-        <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="aspnetTitle">ASP.NET</h1>
-            <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-            <p><a href="http://www.asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+        </nav>
+
+
+        <!-- HERO SECTION -->
+        <section class="text-center py-5 hero-section">
+        
+            <h1 class="display-4 fw-bold text-gradient">
+                Developer Roadmaps
+            </h1>
+
+            <p class="lead text-light mt-3">
+                Learn structured skills. Track your growth. Become industry ready.
+            </p>
+
+            <a href="#" class="btn btn-lg btn-primary mt-4">
+                Role Based Roadmaps
+            </a>
+
         </section>
 
-        <div class="row">
-            <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-                <h2 id="gettingStartedTitle">Getting started</h2>
-                <p>
-                    ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-                A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-                </p>
-            </section>
-            <section class="col-md-4" aria-labelledby="librariesTitle">
-                <h2 id="librariesTitle">Get more libraries</h2>
-                <p>
-                    NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-                </p>
-            </section>
-            <section class="col-md-4" aria-labelledby="hostingTitle">
-                <h2 id="hostingTitle">Web Hosting</h2>
-                <p>
-                    You can easily find a web hosting company that offers the right mix of features and price for your applications.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-                </p>
-            </section>
-        </div>
+
+        <!-- ROADMAP CARDS -->
+        <section class="container py-5">
+        
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="roadmap-card p-4">
+                        Frontend Developer
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="roadmap-card p-4">
+                        Backend Developer
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="roadmap-card p-4">
+                        Full Stack Developer
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="roadmap-card p-4">
+                        DevOps Engineer
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="roadmap-card p-4">
+                        AI / ML Engineer
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
     </main>
 
 </asp:Content>
