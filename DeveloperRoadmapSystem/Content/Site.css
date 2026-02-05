@@ -1,5 +1,6 @@
 ﻿/* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
+
 .body-content {
     margin-top: 15px;
     padding-left: 15px;
@@ -11,6 +12,29 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.roadmap-card {
+    background-color: #0f172a !important;
+    border: 1px solid #1e293b !important;
+    border-radius: 14px;
+    color: #cbd5f5 !important;
+    text-decoration: none !important;
+    transition: all 0.25s ease;
+    box-shadow: 0 0 0 rgba(59,130,246,0);
+    display: block;
+}
+
+.roadmap-card:hover {
+        color: white !important;
+        transform: translateY(-4px);
+        box-shadow: 0 0 25px rgba(59,130,246,0.35);
+        border-color: #3b82f6 !important;
+}
+
+.create-roadmap {
+    border-style: dashed !important;
+    color: #60a5fa !important;
 }
 
 /* Responsive: Portrait tablets and up */
