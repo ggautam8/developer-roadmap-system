@@ -1,20 +1,24 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DeveloperRoadmapSystem.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DeveloperRoadmapSystem.SiteMaster" %> <%--Master Page Directive--%>
+<%-- Master : Tells ASP/net that this is the master page layout and other pages will inherit UI from this--%>
+<%-- AutoEventWireup : ASP.net will automatically connect Page_Load(), Page_Init(), PagePreRender()--%>
+<%-- CodeBehind : Tells ASP.net that logic is not inside this file, its in seperate C# file named 'Site.Master.cs' --%>
 
 <!DOCTYPE html>
 
 <html lang="en">
 <head runat="server">
+<%--Server can access it. Becomes C# object --%>
     <meta charset="utf-8" />
+    <%-- Tells browser to interpret all text on this page using UTF-8 encoding.--%>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <%--Tells mobile browser how to scale and display your page.Viewport : Visible area of webpage on screen --%>
     <title><%: Page.Title %> - My ASP.NET Application</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-
+    <%-- Tells browser to download Bootstrap CSS from internet and apply it to this page--%>
 
     <link rel="stylesheet" href="/Content/Site.css" />
-
-    <%--<link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />--%>
-
+    <%-- Load projects custom CSS file and apply it to this page--%>
 </head>
 <body>
     <form runat="server">
