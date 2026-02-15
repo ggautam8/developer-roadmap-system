@@ -49,105 +49,105 @@
 
                 <!-- CARD -->
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=frontend" class="roadmap-card d-block p-4 text-center">
+                    <a href="RoadmapDetails.aspx?role=Frontend" class="roadmap-card d-block p-4 text-center">
                         Frontend
                     </a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=backend" class="roadmap-card d-block p-4 text-center">
+                    <a href="RoadmapDetails.aspx?role=Backend" class="roadmap-card d-block p-4 text-center">
                         Backend
                     </a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=fullstack" class="roadmap-card d-block p-4 text-center">
+                    <a href="RoadmapDetails.aspx?role=FullStack" class="roadmap-card d-block p-4 text-center">
                         Full Stack
                     </a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=devops" class="roadmap-card d-block p-4 text-center">
+                    <a href="RoadmapDetails.aspx?role=DevOps" class="roadmap-card d-block p-4 text-center">
                         DevOps
                     </a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=ai/ml engineer" class="roadmap-card d-block p-4 text-center">
+                    <a href="RoadmapDetails.aspx?role=AIML" class="roadmap-card d-block p-4 text-center">
                         AI / ML Engineer
                     </a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=devsecops" class="roadmap-card d-block p-4 text-center">DevSecOps</a>
+                    <a href="RoadmapDetails.aspx?role=DevSecOps" class="roadmap-card d-block p-4 text-center">DevSecOps</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=data analyst" class="roadmap-card d-block p-4 text-center">Data Analyst</a>
+                    <a href="RoadmapDetails.aspx?role=DataAnalyst" class="roadmap-card d-block p-4 text-center">Data Analyst</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=data engineer" class="roadmap-card d-block p-4 text-center">Data Engineer</a>
+                    <a href="RoadmapDetails.aspx?role=DataEngineer" class="roadmap-card d-block p-4 text-center">Data Engineer</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=android" class="roadmap-card d-block p-4 text-center">Android</a>
+                    <a href="RoadmapDetails.aspx?role=Android" class="roadmap-card d-block p-4 text-center">Android</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=ios" class="roadmap-card d-block p-4 text-center">iOS</a>
+                    <a href="RoadmapDetails.aspx?role=iOS" class="roadmap-card d-block p-4 text-center">iOS</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=machinelearning" class="roadmap-card d-block p-4 text-center">Machine Learning</a>
+                    <a href="RoadmapDetails.aspx?role=MachineLearning" class="roadmap-card d-block p-4 text-center">Machine Learning</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=blockchain" class="roadmap-card d-block p-4 text-center">Blockchain</a>
+                    <a href="RoadmapDetails.aspx?role=BlockChain" class="roadmap-card d-block p-4 text-center">Blockchain</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=cybersecurity" class="roadmap-card d-block p-4 text-center">Cyber Security</a>
+                    <a href="RoadmapDetails.aspx?role=CyberSecurity" class="roadmap-card d-block p-4 text-center">Cyber Security</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=uxdesign" class="roadmap-card d-block p-4 text-center">UX Design</a>
+                    <a href="RoadmapDetails.aspx?role=UXDesign" class="roadmap-card d-block p-4 text-center">UX Design</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=gamedeveloper" class="roadmap-card d-block p-4 text-center">Game Developer</a>
+                    <a href="RoadmapDetails.aspx?role=GameDeveloper" class="roadmap-card d-block p-4 text-center">Game Developer</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=qa" class="roadmap-card d-block p-4 text-center">QA</a>
+                    <a href="RoadmapDetails.aspx?role=QA" class="roadmap-card d-block p-4 text-center">Quality Assurance</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=productmanager" class="roadmap-card d-block p-4 text-center">Product Manager</a>
+                    <a href="RoadmapDetails.aspx?role=ProductManager" class="roadmap-card d-block p-4 text-center">Product Manager</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=softwarearchitect" class="roadmap-card d-block p-4 text-center">Software Architect</a>
+                    <a href="RoadmapDetails.aspx?role=SoftwareArchitect" class="roadmap-card d-block p-4 text-center">Software Architect</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=technicalwriter" class="roadmap-card d-block p-4 text-center">Technical Writer</a>
+                    <a href="RoadmapDetails.aspx?role=TechnicalWriter" class="roadmap-card d-block p-4 text-center">Technical Writer</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=bianalyst" class="roadmap-card d-block p-4 text-center">BI Analyst</a>
+                    <a href="RoadmapDetails.aspx?role=BIAnalyst" class="roadmap-card d-block p-4 text-center">BI Analyst</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=mlops" class="roadmap-card d-block p-4 text-center">MLOps</a>
+                    <a href="RoadmapDetails.aspx?role=MLOps" class="roadmap-card d-block p-4 text-center">MLOps</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=developerrelations" class="roadmap-card d-block p-4 text-center">Developer Relations</a>
+                    <a href="RoadmapDetails.aspx?role=DeveloperRelations" class="roadmap-card d-block p-4 text-center">Developer Relations</a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=createyourownroadmap" class="roadmap-card create-roadmap d-block p-4 text-center">
+                    <a href="RoadmapDetails.aspx?role=CreateYourOwnRoadmap" class="roadmap-card create-roadmap d-block p-4 text-center">
                         + Create your own Roadmap
                     </a>
                 </div>
@@ -161,3 +161,4 @@
     </main>
 
 </asp:Content>
+   
