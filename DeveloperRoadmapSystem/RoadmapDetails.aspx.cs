@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data.SqlClient;
-using System.Configuration;
 
 
 namespace DeveloperRoadmapSystem
@@ -37,6 +38,33 @@ namespace DeveloperRoadmapSystem
             {"MLOps", "MLOps"},
             {"DeveloperRelations", "Developer Relations"}
 };
+
+        private void LoadSections(string role)
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["DeveloperRoadmapDB"].ConnectionString;
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                string query = @"
+                               SELECT s.SectionName
+                               FROM Sections s
+                               INNER JOIN Roles r ON s.RoleId = r.RoleId
+                               WHERE r.RoleKey = @role
+                               ORDER BY s.OrderIndex";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@role", role);
+
+                conn.Open();
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                rptSections.DataSource = dt;
+                rptSections.DataBind();
+            }
+        }
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -71,6 +99,7 @@ namespace DeveloperRoadmapSystem
                                 displayName.ToLower();
                         }
                     }
+                    LoadSections(role);
                 }
             }
         }

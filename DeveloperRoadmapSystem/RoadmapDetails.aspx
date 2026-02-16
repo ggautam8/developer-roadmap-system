@@ -26,6 +26,17 @@
 
     </div>
 
+    <div class="bg-white shadow rounded p-4 mt-3">
+        <asp:Repeater ID="rptSections" runat="server">
+            <ItemTemplate>
+                <div class="roadmap-section mb-3 p-3">
+                    <%# Eval("SectionName") %>
+                </div>
+            </ItemTemplate>
+        </asp:Repeater>
+    </div>
+
+
 </div>
 
 
