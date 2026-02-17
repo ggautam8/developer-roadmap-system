@@ -41,12 +41,12 @@ namespace DeveloperRoadmapSystem
 
         private void LoadSections(string role)
         {
-            string connectionString = ConfigurationManager.ConnectionStrings["DeveloperRoadmapDB"].ConnectionString;
+            string connectionString = ConfigurationManager.ConnectionStrings["DBConnection"].ConnectionString;
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 string query = @"
-                               SELECT s.SectionName
+                               SELECT s.SectionId, s.SectionName
                                FROM Sections s
                                INNER JOIN Roles r ON s.RoleId = r.RoleId
                                WHERE r.RoleKey = @role
@@ -63,6 +63,45 @@ namespace DeveloperRoadmapSystem
 
                 rptSections.DataSource = dt;
                 rptSections.DataBind();
+            }
+        }
+
+        protected void rptSections_ItemDataBound(object sender, RepeaterItemEventArgs e)
+        {
+            if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
+            {
+                DataRowView row = (DataRowView)e.Item.DataItem;
+
+                int sectionId = Convert.ToInt32(row["SectionId"]);
+
+                Repeater rptItems =
+                    (Repeater)e.Item.FindControl("rptItems");
+
+                LoadItems(sectionId, rptItems);
+            }
+        }
+
+        private void LoadItems(int sectionId, Repeater rptItems)
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["DBConnection"].ConnectionString;
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                string query = @"
+                                SELECT ItemName
+                                FROM RoadmapItems
+                                WHERE SectionId = @sectionId
+                                ORDER BY OrderIndex";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@sectionId", sectionId);
+
+                conn.Open();
+
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                rptItems.DataSource = reader;
+                rptItems.DataBind();
             }
         }
 

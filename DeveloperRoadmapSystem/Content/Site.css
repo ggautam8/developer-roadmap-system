@@ -54,6 +54,28 @@ textarea {
     font-weight: 500;
 }
 
+/* Beige roadmap item boxes */
+.roadmap-item-box {
+    background-color: #ead8a6;
+    border: 2px solid #111;
+    border-radius: 10px;
+    padding: 8px 14px;
+    margin: 6px;
+    display: inline-block;
+    font-weight: 500;
+    box-shadow: 2px 2px 0px #111;
+    transition: transform 0.15s ease;
+}
+
+.roadmap-item-box:hover {
+        transform: translateY(-2px);
+}
+
+.roadmap-items-container {
+    margin-top: 10px;
+}
+
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {

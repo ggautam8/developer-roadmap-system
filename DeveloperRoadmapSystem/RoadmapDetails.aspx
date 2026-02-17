@@ -27,11 +27,25 @@
     </div>
 
     <div class="bg-white shadow rounded p-4 mt-3">
-        <asp:Repeater ID="rptSections" runat="server">
+        <asp:Repeater ID="rptSections" runat="server" OnItemDataBound="rptSections_ItemDataBound">
             <ItemTemplate>
-                <div class="roadmap-section mb-3 p-3">
-                    <%# Eval("SectionName") %>
+
+                <div class="roadmap-section mb-4 p-3">
+
+                    <h4 class="section-title">
+                        <%# Eval("SectionName") %>
+                    </h4>
+                  <div class ="roadmap-items-container">
+                    <asp:Repeater ID="rptItems" runat="server">
+                        <ItemTemplate>
+                            <div class="roadmap-item-box">
+                                <%# Eval("ItemName") %>
+                            </div>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                  </div>
                 </div>
+
             </ItemTemplate>
         </asp:Repeater>
     </div>
