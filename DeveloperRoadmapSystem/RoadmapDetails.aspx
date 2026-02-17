@@ -27,14 +27,21 @@
     </div>
 
     <div class="bg-white shadow rounded p-4 mt-3">
+
+        <div class="roadmap-wrapper">
+
+        <div class="roadmap-center-line"></div>
+
+        <div class="container mt-5 roadmap-content">
         <asp:Repeater ID="rptSections" runat="server" OnItemDataBound="rptSections_ItemDataBound">
             <ItemTemplate>
 
-                <div class="roadmap-section mb-4 p-3">
+                <div class='roadmap-section <%# Container.ItemIndex % 2 == 0 ? "left" : "right" %> mb-4 p-3'>
 
                     <h4 class="section-title">
                         <%# Eval("SectionName") %>
                     </h4>
+
                   <div class ="roadmap-items-container">
                     <asp:Repeater ID="rptItems" runat="server">
                         <ItemTemplate>
@@ -48,6 +55,8 @@
 
             </ItemTemplate>
         </asp:Repeater>
+        </div>
+        </div>
     </div>
 
 
