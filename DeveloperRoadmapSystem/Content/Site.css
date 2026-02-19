@@ -57,3 +57,230 @@ textarea {
         padding: 0;
     }
 }
+
+.roadmap-page {
+    --roadmap-accent: #3b82f6;
+    --roadmap-accent-soft: #eff6ff;
+    background: #e7e7e7;
+    border-radius: 20px;
+    padding: 2rem 1rem 3rem;
+    margin: 1rem 0 2rem;
+}
+
+.roadmap-hero {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.roadmap-panel {
+    background: #f3f3f3;
+    border: 2px solid #1d1d1d;
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.roadmap-title {
+    font-size: clamp(1.65rem, 3vw, 2.2rem);
+    margin: 0 0 0.45rem;
+    font-weight: 700;
+}
+
+.roadmap-subtitle {
+    margin: 0 0 0.75rem;
+    color: #424242;
+}
+
+.roadmap-legend {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 0.4rem;
+}
+
+.roadmap-legend li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.92rem;
+}
+
+.legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #202020;
+    display: inline-block;
+}
+
+.legend-dot--primary { background: #7848ff; }
+.legend-dot--alternate { background: #3e8b2f; }
+.legend-dot--neutral { background: #9e9e9e; }
+
+.roadmap-panel--cta h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.55rem;
+}
+
+.roadmap-link-btn {
+    display: inline-block;
+    margin-top: 0.3rem;
+    padding: 0.55rem 1rem;
+    background: #4a3dd4;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.roadmap-link-btn:hover {
+    color: #fff;
+    background: #3b30b3;
+}
+
+.timeline-wrapper {
+    position: relative;
+    display: grid;
+    gap: 1.4rem;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 3px;
+    transform: translateX(-50%);
+    background: linear-gradient(var(--roadmap-accent), var(--roadmap-accent));
+    border-radius: 20px;
+}
+
+.timeline-item {
+    position: relative;
+    width: calc(50% - 2.5rem);
+    display: flex;
+    align-items: center;
+}
+
+.timeline-item--left {
+    justify-self: start;
+}
+
+.timeline-item--right {
+    justify-self: end;
+}
+
+.timeline-content {
+    background: #101a34;
+    border: 2px solid #1f3b72;
+    border-radius: 16px;
+    padding: 1.2rem;
+    box-shadow: 0 12px 24px rgba(17, 24, 39, 0.22);
+    width: 100%;
+}
+
+.timeline-badge {
+    background: #f1e263;
+    color: #111;
+    border: 2px solid #1d1d1d;
+    border-radius: 999px;
+    display: inline-block;
+    padding: 0.35rem 0.95rem;
+    font-weight: 700;
+    margin-bottom: 0.9rem;
+}
+
+.topic-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.55rem;
+}
+
+.topic-box {
+    background: #ebdda8;
+    border: 2px solid #1d1d1d;
+    border-radius: 8px;
+    padding: 0.5rem 0.65rem;
+    font-weight: 500;
+    color: #111;
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+}
+
+.connector-dot {
+    position: absolute;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--roadmap-accent);
+    border: 2px solid var(--roadmap-accent-soft);
+    transform: translateY(-50%);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.18);
+}
+
+.connector-line {
+    position: absolute;
+    top: 50%;
+    width: 2.4rem;
+    border-top: 3px dotted var(--roadmap-accent);
+    transform: translateY(-50%);
+}
+
+.timeline-item--left .connector-dot,
+.timeline-item--left .connector-line {
+    right: -2.15rem;
+}
+
+.timeline-item--right .connector-dot,
+.timeline-item--right .connector-line {
+    left: -2.15rem;
+}
+
+.roadmap-page--backend {
+    --roadmap-accent: #2f7de8;
+    --roadmap-accent-soft: #dce9ff;
+}
+
+.roadmap-page--fullstack {
+    --roadmap-accent: #8b35ff;
+    --roadmap-accent-soft: #f3e8ff;
+}
+
+@media (max-width: 991.98px) {
+    .timeline-line {
+        left: 1.2rem;
+        transform: none;
+    }
+
+    .timeline-item,
+    .timeline-item--left,
+    .timeline-item--right {
+        width: calc(100% - 2.4rem);
+        justify-self: end;
+    }
+
+    .connector-dot,
+    .connector-line {
+        left: -1.35rem !important;
+        right: auto !important;
+    }
+
+    .topic-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .roadmap-page {
+        padding: 1.25rem 0.55rem 2rem;
+    }
+
+    .roadmap-hero {
+        grid-template-columns: 1fr;
+    }
+}
