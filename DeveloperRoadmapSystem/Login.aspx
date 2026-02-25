@@ -1,46 +1,55 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="DeveloperRoadmapSystem.Login" %>
+﻿<%@ Page Title="Login" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="DeveloperRoadmapSystem.Login" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-            <h2>Login</h2>
+    <div class="d-flex justify-content-center align-items-center" style="min-height:70vh;">
+        <div class="col-md-4">
 
-            <table>
-                <tr>
-                    <td>Username:</td>
-                    <td>
-                        <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
-                    </td>
-                </tr>
+            <div class="card p-4 shadow-lg">
 
-                <tr>
-                    <td>Password:</td>
-                    <td>
-                        <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
-                    </td>
-                </tr>
+                <div class="text-center mb-4">
+                    <h3 class="fw-bold text-primary">Developer Roadmap</h3>
+                    <p class="text-muted">Sign in to continue</p>
+                </div>
 
-                <tr>
-                    <td></td>
-                    <td>
-                        <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" CausesValidation="false"/>
-                    </td>
-                </tr>
+                <div class="mb-3">
+                    <label class="form-label">Username</label>
+                    <asp:TextBox 
+                        ID="txtUsername" 
+                        runat="server" 
+                        CssClass="form-control"
+                        placeholder="Enter username" />
+                </div>
 
-                <tr>
-                    <td></td>
-                    <td>
-                        <asp:Label ID="lblMessage" runat="server" ForeColor="Red"></asp:Label>
-                    </td>
-                </tr>
-            </table>
+                <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <asp:TextBox 
+                        ID="txtPassword" 
+                        runat="server" 
+                        TextMode="Password"
+                        CssClass="form-control"
+                        placeholder="Enter password" />
+                </div>
+
+                <div class="d-grid mb-3">
+                    <asp:Button 
+                        ID="btnLogin" 
+                        runat="server" 
+                        Text="Login" 
+                        CssClass="btn btn-primary"
+                        OnClick="btnLogin_Click" />
+                </div>
+
+                <div class="text-center">
+                    <asp:Label 
+                        ID="lblMessage" 
+                        runat="server" 
+                        CssClass="text-danger fw-semibold" />
+                </div>
+
+            </div>
+
         </div>
-    </form>
-</body>
-</html>
+    </div>
+
+</asp:Content>

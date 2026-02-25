@@ -5,16 +5,16 @@
     <main>
         <div class="container-fluid p-0">
 
-        <!-- NAVBAR -->
+       
         <nav class="navbar navbar-expand-lg navbar-dark bg-black px-4">
         
-            <!-- LEFT SIDE -->
+            
             <div class="d-flex align-items-center">
-                <!-- Later Logo Here -->
+               
                 <span class="navbar-brand fw-bold">SkillPath</span>
             </div>
 
-            <!-- RIGHT SIDE -->
+           
             <div class="ms-auto">
                 <a href="About.aspx" class="nav-link d-inline text-white">About</a>
                 <a href="https://github.com/ggautam8/developer-roadmap-system" target="_blank" 
@@ -24,7 +24,7 @@
         </nav>
 
 
-        <!-- HERO SECTION -->
+        
         <section class="text-center py-5 hero-section">
         
             <h1 class="display-4 fw-bold text-gradient">
@@ -42,38 +42,36 @@
         </section>
 
 
-        <!-- ROADMAP CARDS -->
         <section class="container py-5">
 
             <div class="row g-4 justify-content-center">
 
-                <!-- CARD -->
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=Frontend" class="roadmap-card d-block p-4 text-center">
+                    <a href="Frontend.aspx" class="roadmap-card d-block p-4 text-center">
                         Frontend
                     </a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=Backend" class="roadmap-card d-block p-4 text-center">
+                    <a href="Backend.aspx" class="roadmap-card d-block p-4 text-center">
                         Backend
                     </a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=FullStack" class="roadmap-card d-block p-4 text-center">
+                    <a href="FullStack.aspx" class="roadmap-card d-block p-4 text-center">
                         Full Stack
                     </a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=DevOps" class="roadmap-card d-block p-4 text-center">
+                    <a href="DevOps.aspx" class="roadmap-card d-block p-4 text-center">
                         DevOps
                     </a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-6">
-                    <a href="RoadmapDetails.aspx?role=AIML" class="roadmap-card d-block p-4 text-center">
+                    <a href="AIML.aspx" class="roadmap-card d-block p-4 text-center">
                         AI / ML Engineer
                     </a>
                 </div>
