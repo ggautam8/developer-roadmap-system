@@ -1,10 +1,10 @@
-﻿<%@ Page Title="Frontend Roadmap" Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Frontend.aspx.cs" Inherits="DeveloperRoadmapSystem.Frontend" %>
+﻿<%@ Page Title="DevOps Roadmap" Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="DevOps.aspx.cs" Inherits="DeveloperRoadmapSystem.DevOps" %>
 
-    <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="text-center mt-4">
-        <h1 class="fw-bold ">Frontend Developer Roadmap</h1>
-        <p class="text-secondary">Step-by-step path to becoming a frontend developer</p>
+        <h1 class="fw-bold ">DevOps Developer Roadmap</h1>
+        <p class="text-secondary">Step by step guide for DevOps, SRE or any other Operations Role in 2026</p>
     </div>
 
     <div class="roadmap-container">
@@ -13,52 +13,114 @@
             <div class="card roadmap-timeline-card timeline-left">
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Internet</div>
+                    <div class="roadmap-title fs-3">Learn a Programming Language</div>
                 </a>
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-desc">-- How does the internet work?</div>
+                    <div class="roadmap-desc">-- Python</div>
                 </a>
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-desc">-- What is HTTP?</div>
+                    <div class="roadmap-desc">-- Ruby</div>
                 </a>
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-desc">-- What is Domain Name?</div>
+                    <div class="roadmap-desc">-- Go</div>
                 </a>
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-desc">-- What is hosting?</div>
+                    <div class="roadmap-desc">-- Rust</div>
                 </a>
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-desc">-- DNS and how it works?</div>
+                    <div class="roadmap-desc">-- JavaScript / Node.js</div>
                 </a>
-
-                <a href="#" class="roadmap-link">
-                    <div class="roadmap-desc">-- Browsers and how they work?</div>
-                </a>
-
+              
             </div>
         </div>
 
         <div class="roadmap-item">
-            <a class="roadmap-link" href="#">
-                <div class="card roadmap-timeline-card timeline-right">
-                    <div class="roadmap-title fs-3">HTML</div>
-                    <div class="roadmap-desc"></div>
-                </div>
-            </a>
+            <div class="card roadmap-timeline-card timeline-right">
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-title fs-3">Operating System</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">-- Windows</div>
+                </a><br />
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">-- Unix</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">&nbsp&nbsp&nbsp- FreeBSD</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">&nbsp&nbsp&nbsp- OpenBSD</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">&nbsp&nbsp&nbsp- NetBSD</div>
+                </a><br />
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">-- Linux</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">&nbsp&nbsp&nbsp- Ubuntu / Debian</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">&nbsp&nbsp&nbsp- Suse Linux</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">&nbsp&nbsp&nbsp- RHEL / Derivatives</div>
+                </a>
+      
+            </div>
         </div>
 
         <div class="roadmap-item">
-            <a class="roadmap-link" href="#">
-                <div class="card roadmap-timeline-card timeline-left">
-                    <div class="roadmap-title fs-3">CSS</div>
-                    <div class="roadmap-desc"></div>
-                </div>
-            </a>
+            <div class="card roadmap-timeline-card timeline-left">
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-title fs-3">Terminal Knowledge</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">-- Bash </div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">-- Power Shell</div>
+                </a><br />
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">-- Vim / Nano / Emacs</div>
+                </a><br />
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">-- Process Monitoring</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">-- Performance Monitoring</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">-- Networking Tools</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">-- Text Manipulation</div>
+                </a>
+                     
+            </div>
         </div>
 
         <div class="roadmap-item">
@@ -492,5 +554,6 @@
     </div>
 
 </asp:Content>
+
 
 

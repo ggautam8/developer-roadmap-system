@@ -120,8 +120,10 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="DevOps.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Frontend.aspx" />
+    <Content Include="FullStack.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Login.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -216,12 +218,26 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DevOps.aspx.cs">
+      <DependentUpon>DevOps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DevOps.aspx.designer.cs">
+      <DependentUpon>DevOps.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Frontend.aspx.cs">
       <DependentUpon>Frontend.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Frontend.aspx.designer.cs">
       <DependentUpon>Frontend.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FullStack.aspx.cs">
+      <DependentUpon>FullStack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FullStack.aspx.designer.cs">
+      <DependentUpon>FullStack.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

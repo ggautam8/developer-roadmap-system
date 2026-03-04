@@ -5,26 +5,6 @@
     <main>
         <div class="container-fluid p-0">
 
-       
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black px-4">
-        
-            
-            <div class="d-flex align-items-center">
-               
-                <span class="navbar-brand fw-bold">SkillPath</span>
-            </div>
-
-           
-            <div class="ms-auto">
-                <a href="About.aspx" class="nav-link d-inline text-white">About</a>
-                <a href="https://github.com/ggautam8/developer-roadmap-system" target="_blank" 
-                   class="nav-link d-inline text-white">Contribute</a>
-            </div>
-
-        </nav>
-
-
-        
         <section class="text-center py-5 hero-section">
         
             <h1 class="display-4 fw-bold text-gradient">
