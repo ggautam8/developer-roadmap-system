@@ -12,31 +12,31 @@
         <div class="roadmap-item">
             <div class="card roadmap-timeline-card timeline-left">
 
-                <a href="#" class="roadmap-link">
+                <a href="https://en.wikipedia.org/wiki/Internet" class="roadmap-link">
                     <div class="roadmap-title fs-3">Internet</div>
                 </a>
 
-                <a href="#" class="roadmap-link">
+                <a href="https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/" class="roadmap-link">
                     <div class="roadmap-desc">-- How does the internet work?</div>
                 </a>
 
-                <a href="#" class="roadmap-link">
+                <a href="https://www.w3schools.com/whatis/whatis_http.asp" class="roadmap-link">
                     <div class="roadmap-desc">-- What is HTTP?</div>
                 </a>
 
-                <a href="#" class="roadmap-link">
+                <a href="https://www.geeksforgeeks.org/computer-networks/introduction-to-domain-name/" class="roadmap-link">
                     <div class="roadmap-desc">-- What is Domain Name?</div>
                 </a>
 
-                <a href="#" class="roadmap-link">
+                <a href="https://www.hostinger.com/in/tutorials/what-is-web-hosting" class="roadmap-link">
                     <div class="roadmap-desc">-- What is hosting?</div>
                 </a>
 
-                <a href="#" class="roadmap-link">
+                <a href="https://www.geeksforgeeks.org/computer-networks/domain-name-system-dns-in-application-layer/" class="roadmap-link">
                     <div class="roadmap-desc">-- DNS and how it works?</div>
                 </a>
 
-                <a href="#" class="roadmap-link">
+                <a href="https://www.geeksforgeeks.org/computer-networks/web-browser/" class="roadmap-link">
                     <div class="roadmap-desc">-- Browsers and how they work?</div>
                 </a>
 

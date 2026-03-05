@@ -93,15 +93,31 @@
                 </a>
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-desc">-- Bash </div>
+                    <div class="roadmap-desc">-- Scripting </div>
                 </a>
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-desc">-- Power Shell</div>
+                    <div class="roadmap-desc">&nbsp&nbsp&nbsp- Bash </div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">&nbsp&nbsp&nbsp- Power Shell</div>
                 </a><br />
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-desc">-- Vim / Nano / Emacs</div>
+                    <div class="roadmap-desc">-- Editors</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">&nbsp&nbsp&nbsp- Vim</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">&nbsp&nbsp&nbsp- Nano</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">&nbsp&nbsp&nbsp- Emacs</div>
                 </a><br />
 
                 <a href="#" class="roadmap-link">
@@ -124,19 +140,10 @@
         </div>
 
         <div class="roadmap-item">
-            <a class="roadmap-link" href="#">
-                <div class="card roadmap-timeline-card timeline-right">
-                    <div class="roadmap-title fs-3">JavaScript</div>
-                    <div class="roadmap-desc"></div>
-                </div>
-            </a>
-        </div>
-
-        <div class="roadmap-item">
-            <div class="card roadmap-timeline-card timeline-left">
+            <div class="card roadmap-timeline-card timeline-right">
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Version Control</div>
+                    <div class="roadmap-title fs-3">Version Control Systems</div>
                 </a>
 
                 <a href="#" class="roadmap-link">
@@ -146,9 +153,8 @@
             </div>
         </div>
 
-
         <div class="roadmap-item">
-            <div class="card roadmap-timeline-card timeline-right">
+            <div class="card roadmap-timeline-card timeline-left">
 
                 <a href="#" class="roadmap-link">
                     <div class="roadmap-title fs-3">VCS Hosting</div>
@@ -162,106 +168,8 @@
                     <div class="roadmap-desc">GitLab</div>
                 </a>
 
-            </div>
-        </div>
-
-        <div class="roadmap-item">
-            <div class="card roadmap-timeline-card timeline-left">
-
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Package Managers</div>
-                </a>
-
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- npm</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- yarn</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- pnpm</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Bun</div></a>
-
-            </div>
-        </div>
-
-        <div class="roadmap-item">
-            <div class="card roadmap-timeline-card timeline-right">
-
-                <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">CSS Frameworks</div>
-                </a>
-
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Bootstrap</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Tailwind</div></a>
-
-            </div>
-        </div>
-
-        <div class="roadmap-item">
-            <div class="card roadmap-timeline-card timeline-left">
-
-                <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Learn a Framework</div>
-                </a>
-
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- React</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Vue.js</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Angular</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Svelte</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Solid JS</div></a>
-
-            </div>
-        </div>
-
-        <div class="roadmap-item">
-            <div class="card roadmap-timeline-card timeline-right">
-
-                <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Learn the Basics</div>
-                </a>
-
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- How LLMs work</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- AI vs Traditional Coding</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Applications</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- Code Reviews</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- Refactoring</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- Docs Generation</div></a>
-
-            </div>
-        </div>
-
-        <div class="roadmap-item">
-            <div class="card roadmap-timeline-card timeline-left">
-
-                <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">AI Assisted Coding</div>
-                </a>
-
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Claude</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Cursor</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Copilot</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Antigravity</div></a>
-
-            </div>
-        </div>
-
-        <div class="roadmap-item">
-            <div class="card roadmap-timeline-card timeline-right">
-
-                <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Prompting Techniques</div>
-                </a>
-
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Prompt Engineering</div></a>
-
-            </div>
-        </div>
-
-        <div class="roadmap-item">
-            <div class="card roadmap-timeline-card timeline-left">
-
-                <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Agents</div>
-                </a>
-
-                <a href="#" class="roadmap-link">
-                    <div class="roadmap-desc">-- AI Agents Roadmap</div>
+                    <div class="roadmap-desc">Bitbucket</div>
                 </a>
 
             </div>
@@ -271,7 +179,15 @@
             <div class="card roadmap-timeline-card timeline-right">
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">MCP</div>
+                    <div class="roadmap-title fs-3">Containers</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">Docker</div>
+                </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">LXC</div>
                 </a>
 
             </div>
@@ -281,8 +197,20 @@
             <div class="card roadmap-timeline-card timeline-left">
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Skills</div>
+                    <div class="roadmap-title fs-3">What is & how to setup : </div>
                 </a>
+
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Forwarf Proxy</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Reverse Proxy</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Caching Server</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Firewall</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Load Balancer</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Web Server</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- Nginx</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- Caddy</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- Tomcat</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- Apache</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- IIS</div></a>
 
             </div>
         </div>
@@ -291,12 +219,17 @@
             <div class="card roadmap-timeline-card timeline-right">
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Implementing AI</div>
+                    <div class="roadmap-title fs-3">Networking & Protocols</div>
                 </a>
 
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Gemini</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Open AI</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Anthropic</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- TCP / IP</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- HTTP / HTTPS</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- FTP / SFTP</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- SMTP / POP3 / IMAP</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- DNS</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- DHCP</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- SSL / TLS</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- UDP</div></a>
 
             </div>
         </div>
@@ -305,12 +238,17 @@
             <div class="card roadmap-timeline-card timeline-left">
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Linters & Formatters</div>
+                    <div class="roadmap-title fs-3">Cloud Providers</div>
                 </a>
 
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Biome</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Prettier</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- ESLint</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- AWS</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Azure</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Google Cloud</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Digital Ocean</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Alibaba Cloud</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Hetzner</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Contabo</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Heroku</div></a>
 
             </div>
         </div>
@@ -319,15 +257,15 @@
             <div class="card roadmap-timeline-card timeline-right">
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Module Bundlers</div>
+                    <div class="roadmap-title fs-3">Serverless</div>
                 </a>
 
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Vite</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- SWC</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- esbuild</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Rollup</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Rolldown</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Parcek</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- AWS Lambda</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Cloudfare</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Azure Functions</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Vercel</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Netlify</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- GCP Functions</div></a>
 
             </div>
         </div>
@@ -336,8 +274,13 @@
             <div class="card roadmap-timeline-card timeline-left">
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Auth Strategies</div>
+                    <div class="roadmap-title fs-3">Provisioning</div>
                 </a>
+
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- AWS CDK</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- CloudFormation</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Pulumi</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Terraform</div></a>
 
             </div>
         </div>
@@ -346,13 +289,13 @@
             <div class="card roadmap-timeline-card timeline-right">
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Testing</div>
+                    <div class="roadmap-title fs-3">Configuration Management</div>
                 </a>
 
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Vitest</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Playwright</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Cypress</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Jest</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Chef</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Ansible</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Salt</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Puppet</div></a>
 
             </div>
         </div>
@@ -361,8 +304,18 @@
             <div class="card roadmap-timeline-card timeline-left">
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Web APIs</div>
+                    <div class="roadmap-title fs-3">CI / CD Tools</div>
                 </a>
+
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-desc">-- TeamCity</div>
+                </a>
+
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Jenkins</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- GitLab CI</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Circle CI</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Octopus Deploy</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- GitHub Actions</div></a>
 
             </div>
         </div>
@@ -371,13 +324,14 @@
             <div class="card roadmap-timeline-card timeline-right">
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">Web Security</div>
+                    <div class="roadmap-title fs-3">Secret Management</div>
                 </a>
 
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- CORS</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- HTTPS</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- CPS</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- OWASP Risks</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Sealed Secrets</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- ESO</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Vault</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- SOPs</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Cloud Specific Tools</div></a>
 
             </div>
         </div>
@@ -386,170 +340,122 @@
             <div class="card roadmap-timeline-card timeline-left">
 
                 <a href="#" class="roadmap-link">
-                    <div class="roadmap-title fs-3">SSR</div>
+                    <div class="roadmap-title fs-3">Infrastructure Monitoring</div>
                 </a>
 
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Angular</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- Vue.js</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp- Nuxt.js</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- Svelte Kit</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp- Svelte</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- React</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- Next.js</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- Tanstack Start</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- Astro</div></a>
-                <a href="#" class="roadmap-link"><div class="roadmap-desc">&nbsp&nbsp&nbsp- react-router</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Prometheus</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Grafana</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Zabbix</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Datadog</div></a>
 
             </div>
         </div>
 
         <div class="roadmap-item">
-        <div class="card roadmap-timeline-card timeline-right">
+            <div class="card roadmap-timeline-card timeline-right">
 
-            <a href="#" class="roadmap-link">
-                <div class="roadmap-title fs-3">SSG</div>
-            </a>
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-title fs-3">Logs Management</div>
+                </a>
 
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Astro</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Next.js</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Vuepress</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Eleventy</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Nuxt.js</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Papertrail</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Splunk</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Loki</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Elastic Stack</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Graylog</div></a>
 
+            </div>
         </div>
-    </div>
 
-    <div class="roadmap-item">
-        <div class="card roadmap-timeline-card timeline-left">
+        <div class="roadmap-item">
+            <div class="card roadmap-timeline-card timeline-left">
 
-            <a href="#" class="roadmap-link">
-                <div class="roadmap-title fs-3">Type Checkers</div>
-            </a>
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-title fs-3">Container Orchestration</div>
+                </a>
 
-            <a href="#" class="roadmap-link">
-                <div class="roadmap-desc">-- TypeScript</div>
-            </a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Kubernetes</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Docker Swarm</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- OpenShift</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- AWS / ECS Fargate</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- GKE / EKS / AKS</div></a>
 
+            </div>
         </div>
-    </div>
 
-    <div class="roadmap-item">
-        <div class="card roadmap-timeline-card timeline-right">
+        <div class="roadmap-item">
+            <div class="card roadmap-timeline-card timeline-right">
 
-            <a href="#" class="roadmap-link">
-                <div class="roadmap-title fs-3">Deployment</div>
-            </a>
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-title fs-3">Observability</div>
+                </a>
 
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- GitHub Pages</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Vercel</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Netlify</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Cloudfare</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Railway</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Render</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Jaegar</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- New Relic</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Datadog</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Prometheus</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- OpenTelemetry</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- DynaTrace</div></a>
 
+            </div>
         </div>
-    </div>
 
-    <div class="roadmap-item">
-        <div class="card roadmap-timeline-card timeline-left">
+        <div class="roadmap-item">
+            <div class="card roadmap-timeline-card timeline-left">
 
-            <a href="#" class="roadmap-link">
-                <div class="roadmap-title fs-3">Design Systems</div>
-            </a>
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-title fs-3">Artifact Management</div>
+                </a>
 
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Artifactory</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Nexus</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Cloud Smith</div></a>
+
+            </div>
         </div>
-    </div>
 
-    <div class="roadmap-item">
-        <div class="card roadmap-timeline-card timeline-right">
+        <div class="roadmap-item">
+            <div class="card roadmap-timeline-card timeline-right">
 
-            <a href="#" class="roadmap-link">
-                <div class="roadmap-title fs-3">Performance</div>
-            </a>
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-title fs-3">GitOps</div>
+                </a>
 
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Lighthouse</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- DevTools Usage</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Service Workers</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Cache-Control</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Streamed Responses</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- ArgoCD</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- FluxCD</div></a>
 
+            </div>
         </div>
-    </div>
 
-    <div class="roadmap-item">
-        <div class="card roadmap-timeline-card timeline-left">
+        <div class="roadmap-item">
+            <div class="card roadmap-timeline-card timeline-left">
 
-            <a href="#" class="roadmap-link">
-                <div class="roadmap-title fs-3">Web Components</div>
-            </a>
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-title fs-3">Service Mesh</div>
+                </a>
 
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- HTML Templates</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Custom Elements</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Shadow DOM</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Istio</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Consul</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Linkerd</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Envoy</div></a>
 
+            </div>
         </div>
-    </div>
 
-    <div class="roadmap-item">
-        <div class="card roadmap-timeline-card timeline-right">
+        <div class="roadmap-item">
+            <div class="card roadmap-timeline-card timeline-right">
 
-            <a href="#" class="roadmap-link">
-                <div class="roadmap-title fs-3">GraphQL</div>
-            </a>
+                <a href="#" class="roadmap-link">
+                    <div class="roadmap-title fs-3">Cloud Design Patterns</div>
+                </a>
 
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Apollo</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Relay Modern</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Availability</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Data Management</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Design & Implementation</div></a>
+                <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Management & Monitoring</div></a>
 
+            </div>
         </div>
-    </div>
-
-    <div class="roadmap-item">
-        <div class="card roadmap-timeline-card timeline-left">
-
-            <a href="#" class="roadmap-link">
-                <div class="roadmap-title fs-3">Accessibility</div>
-            </a>
-
-        </div>
-    </div>
-
-    <div class="roadmap-item">
-        <div class="card roadmap-timeline-card timeline-right">
-
-            <a href="#" class="roadmap-link">
-                <div class="roadmap-title fs-3">PWAs</div>
-            </a>
-
-        </div>
-    </div>
-
-    <div class="roadmap-item">
-        <div class="card roadmap-timeline-card timeline-left">
-
-            <a href="#" class="roadmap-link">
-                <div class="roadmap-title fs-3">Mobile Apps</div>
-            </a>
-
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- React Native</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Flutter</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Ionic</div></a>
-
-        </div>
-    </div>
-
-    <div class="roadmap-item">
-        <div class="card roadmap-timeline-card timeline-right">
-
-            <a href="#" class="roadmap-link">
-                <div class="roadmap-title fs-3">Desktop Apps</div>
-            </a>
-
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Electron</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Tauri</div></a>
-            <a href="#" class="roadmap-link"><div class="roadmap-desc">-- Flutter</div></a>
-
-        </div>
-    </div>
 
     </div>
 
