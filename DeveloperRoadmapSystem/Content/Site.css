@@ -1,4 +1,4 @@
-﻿/* ================= EXISTING COMPATIBILITY ================= */
+﻿
 
 .body-content {
     margin-top: 15px;
@@ -21,7 +21,6 @@ textarea {
     border-radius: 10px;
 }
 
-/* ================= ROADMAP CARDS (KEPT INTACT) ================= */
 
 .roadmap-card {
     background-color: #0f172a !important;
@@ -51,7 +50,6 @@ textarea {
     z-index: 2;
 }
 
-/* ================= GLOBAL APP THEME ================= */
 
 .app-theme {
     background: linear-gradient(135deg, #0f172a, #1e293b);
@@ -59,7 +57,7 @@ textarea {
     min-height: 100vh;
 }
 
-/* Card Styling */
+
 .card {
     background-color: #1e293b;
     border: 1px solid #334155;
@@ -67,7 +65,7 @@ textarea {
     color: #e2e8f0;
 }
 
-/* Buttons */
+
 .btn-primary {
     background-color: #3b82f6;
     border-color: #3b82f6;
@@ -79,7 +77,7 @@ textarea {
         border-color: #2563eb;
     }
 
-/* Form Controls */
+
 .form-control {
     background-color: #0f172a;
     border: 1px solid #334155;
@@ -93,26 +91,22 @@ textarea {
         box-shadow: 0 0 0 0.2rem rgba(59,130,246,0.25);
     }
 
-/* Navbar refinement */
+
 .navbar {
     border-bottom: 1px solid #1e293b;
 }
 
-/* Footer */
 footer {
     background-color: transparent;
     color: #94a3b8;
 }
 
-/* Responsive Fix */
 @media screen and (min-width: 768px) {
     .body-content {
         padding: 0;
     }
 }
 
-
-/* ================= FRONTEND ROADMAP PAGE ================= */
 
 .roadmap-container {
     position: relative;
@@ -166,7 +160,6 @@ footer {
 }
 
 
-/* ================= FRONTEND ROADMAP TIMELINE ================= */
 
 .roadmap-container {
     position: relative;
@@ -212,7 +205,6 @@ footer {
     margin-left: auto;
 }
 
-/* Title */
 
 .roadmap-title {
     font-size: 18px;
@@ -221,7 +213,6 @@ footer {
     margin-bottom: 6px;
 }
 
-/* Description styled like subtle clickable text */
 
 .roadmap-desc {
     font-size: 14px;
@@ -236,13 +227,11 @@ footer {
         transform: translateX(3px);
     }
 
-/* remove underline from card links */
 
 .roadmap-link {
     text-decoration: none;
 }
 
-/* Responsive */
 
 @media (max-width: 768px) {
 
@@ -260,4 +249,18 @@ footer {
         margin-left: 40px;
         margin-right: 0;
     }
+}
+
+.signup-container {
+    min-height: calc(100vh - 120px);
+}
+
+.card {
+    backdrop-filter: blur(6px);
+}
+
+input,
+select,
+textarea {
+    max-width: 100%;
 }

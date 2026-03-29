@@ -79,7 +79,7 @@
                         <li class="nav-item">
                             <a class="btn btn-primary ms-2 px-3"
                                runat="server"
-                               href="~/Signup.aspx">
+                               href="~/SignUp.aspx">
                                Sign Up
                             </a>
                         </li>

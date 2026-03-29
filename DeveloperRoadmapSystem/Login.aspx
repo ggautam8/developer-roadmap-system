@@ -8,17 +8,13 @@
             <div class="card p-4 shadow-lg">
 
                 <div class="text-center mb-4">
-                    <h3 class="fw-bold text-primary">Developer Roadmap</h3>
-                    <p class="text-muted">Sign in to continue</p>
+                    <h3 class="fw-bold text-primary">Developer Roadmaps</h3>
+                    <p class="text-secondary">Sign in to continue</p>
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label">Username</label>
-                    <asp:TextBox 
-                        ID="txtUsername" 
-                        runat="server" 
-                        CssClass="form-control"
-                        placeholder="Enter username" />
+                    <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control" placeholder="Enter username" />
                 </div>
 
                 <div class="mb-3">
